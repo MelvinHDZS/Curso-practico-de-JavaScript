@@ -19,8 +19,12 @@ function calcularMediaAritmetica(lista) {
   return promedioLista;
 }
 
+//EJEMPLO
+calcularMediaAritmetica([10, 20, 30, 10, 50, 60, 10]);
+
 //Metodos .REDUCE para PROMEDIO
 
-const sumaLista = lista.reduce(function (valorAcumulado = 0, nuevoElemento) {
+/*const sumaLista = lista.reduce(function (valorAcumulado = 0, nuevoElemento) {
   return valorAcumulado + nuevoElemento;
 });
+*/
